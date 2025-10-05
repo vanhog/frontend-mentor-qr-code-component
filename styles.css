@@ -9,6 +9,11 @@
     font-family: "Outfit",Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    font-size: 0px;
+    color: #d5e1ef;
+}
+
 .qr-container {
     width: 320px;
     height: 499px;
