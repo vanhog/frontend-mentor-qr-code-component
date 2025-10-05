@@ -1,62 +1,63 @@
 :root {
-    --box-content-width: 288px;
+    --box-content-width: 18rem;
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     background-color: #d5e1ef;
     font-family: "Outfit",Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-size: 0px;
+    font-size: 0rem;
     color: #d5e1ef;
 }
 
 .qr-container {
-    width: 320px;
-    height: 499px;
+    width: 20rem;
+    height: 31.1875rem;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -160px;
-    margin-top: -250px;
+    margin-left: -10rem;
+    margin-top: -15.59375rem;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5%;
 }
 
 
 .qr-code {
     width: var(--box-content-width);
     height: var(--box-content-width);   
-    margin: 16px 40px 16px 16px;
+    margin: 1rem 3rem 1rem 1rem;
     background-color: white;
 
 }
 
 .qr-text {
     background: white;
-    padding-bottom: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5%;
 }
 
 .qr-bold {
-    margin-top: 22px;
+    margin-top: 1.375rem;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.375rem;
     text-align: center;
     line-height: 120%;
     color: #1F314F
 }
 
 .qr-light {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #68778D;
     text-align: center;
     line-height: 140%;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.0125rem;
 }
 
 #img{
