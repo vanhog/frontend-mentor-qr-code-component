@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
     background-color: #d5e1ef;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Outfit",Arial, Helvetica, sans-serif;
 }
 
 .qr-container {
@@ -18,35 +18,39 @@
     margin-left: -160px;
     margin-top: -250px;
     background-color: white;
-    border-radius: 5%;;
+    border-radius: 20px;
 }
 
 
 .qr-code {
     width: var(--box-content-width);
     height: var(--box-content-width);   
-    margin: 5%;
+    margin: 16px 40px 16px 16px;
     background-color: white;
 
 }
 
 .qr-text {
     background: white;
-    margin: 10% 10%;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .qr-bold {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     line-height: 120%;
+    color: #1F314F
 }
 
 .qr-light {
     font-size: 14px;
-    color: darkgray;
+    color: #68778D;
     text-align: center;
     line-height: 140%;
+    letter-spacing: 0.2px;
 }
 
 #img{
