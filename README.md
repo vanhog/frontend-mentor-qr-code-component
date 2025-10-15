@@ -38,7 +38,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 The QR code component was the first challenge I completed on Frontend Mentor.
 
-I learned that the anchor point of a box model element is its top-left corner. To center an element, it needs to be shifted back by half of its height and half of its width toward the top and left edges, respectively.
+- I learned that the anchor point of a box model element is its top-left corner. To center an element, it needs to be shifted back by half of its height and half of its width toward the top and left edges, respectively.
 
 ```css
 .qr-container {
@@ -51,7 +51,9 @@ I learned that the anchor point of a box model element is its top-left corner. T
     margin-top: -Y/2px;
     }
 ```
-Furthermore, I learned to use Figma.
+- I learned, that for every browser the **default font-size** is 16px, and that this can be used for relative units like **em** and **rem**. 
+
+- Furthermore, I learned to use Figma.
 
 ### Continued development
 
@@ -68,4 +70,4 @@ Using this method does not push the following elements forward. I think it would
 
 ## Acknowledgments
 
-Thanks to ![PatrikAkerstrand](https://stackoverflow.com/users/101811/patrikakerstrand) who wrote that stackoverflow answere that helped me so much.
+Thanks to [PatrikAkerstrand](https://stackoverflow.com/users/101811/patrikakerstrand) who wrote that stackoverflow answere that helped me so much.
