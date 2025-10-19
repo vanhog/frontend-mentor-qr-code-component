@@ -63,7 +63,7 @@ h1 {
     font-weight: 400;
 }
 
-.qr-code-image{
+#img{
     width: var(--box-content-width);
     border-radius: 5%;
 }
