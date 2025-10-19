@@ -54,7 +54,7 @@ h1 {
 }
 
 .qr-light {
-    margin-block-start: -0.0625rem;
+    margin-block-start: -0.125rem;
     font-size: 0.875rem;
     color: #68778D;
     text-align: center;
